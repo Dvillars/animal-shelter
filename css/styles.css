@@ -2,27 +2,48 @@ img {
   width: 300px;
 }
 
-.martin, .pepper, .garfield {
+.animal {
   float: left;
-  width: 300;
+  width: 300px;
   padding: 5px;
+  border: 3px solid darkblue;
+  margin: 5px;
 }
 
 h1, h2 {
   text-align: center;
 }
 
-.martin ul {
-  font-style: italic;
+.animal ul {
+  font-weight: bold;
   color: darkblue;
 }
 
-.pepper ul {
-  font-weight: bolder;
-  color: darkred;
+@media screen and (max-width: 1000px) {
+  img {
+    width: 200px;
+  }
+
+  .animal {
+    width: 200px;
+  }
 }
 
-.garfield ul {
-  font-style: oblique;
-  color: darkgreen;
+@media screen and (max-width: 480px) {
+  img {
+    width: 150px;
+  }
+
+  .animal ul {
+    float: right;
+    padding: 5px;
+  }
+
+  .animal {
+    float: none;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 300px;
+  }
 }
