@@ -1,13 +1,16 @@
 img {
   width: 300px;
+  margin: auto;
 }
 
 .animal {
   float: left;
   width: 300px;
+  height: 500px;
   padding: 5px;
   border: 3px solid darkblue;
   margin: 5px;
+
 }
 
 h1, h2 {
@@ -26,6 +29,7 @@ h1, h2 {
 
   .animal {
     width: 200px;
+    height: 400px;
   }
 }
 
@@ -44,6 +48,7 @@ h1, h2 {
     margin: auto;
     margin-bottom: 5px;
     margin-top: 5px;
-    width: 300px;
+    width: 95%;
+    height: 250px;
   }
 }
