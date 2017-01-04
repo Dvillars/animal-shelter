@@ -1,0 +1,28 @@
+img {
+  width: 300px;
+}
+
+.martin, .pepper, .garfield {
+  float: left;
+  width: 300;
+  padding: 5px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.martin ul {
+  font-style: italic;
+  color: darkblue;
+}
+
+.pepper ul {
+  font-weight: bolder;
+  color: darkred;
+}
+
+.garfield ul {
+  font-style: oblique;
+  color: darkgreen;
+}
